@@ -36,11 +36,11 @@ OmniAble provides a unified hub that consolidates these five pillars into one se
 ---
 
 ## 📁 Repository Structure
-* **`.kiro/specs/requirements.md`**: EARS-notated system requirements (20 detailed requirements).
-* **`.kiro/specs/design.md`**: Complete AWS architecture design with 30 correctness properties.
-* **`OmniAble_Platform.pdf`**: Original conceptual reference document.
-
-**Note:** The `.kiro` folder contains development specifications. These files are maintained locally for development purposes and may not be visible in the Git repository.
+* **[`requirements.md`](./requirements.md)**: High-level requirements summary for the OmniAble platform.
+* **[`design.md`](./design.md)**: AWS architecture design document.
+* **`.kiro/specs/`**: Detailed technical specifications (local development files):
+  - `requirements.md`: Complete EARS-formatted requirements (20 detailed requirements)
+  - `design.md`: Full AWS architecture design with 30 correctness properties
 
 ---
 *Empowering Every Individual across Bharat.*
