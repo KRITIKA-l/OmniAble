@@ -36,9 +36,9 @@ OmniAble provides a unified hub that consolidates these five pillars into one se
 ---
 
 ## 📁 Repository Structure
-* **[`/requirements.md`](./requirements.md)**: EARS-notated system requirements.
-* **[`/design.md`](./design.md)**: Logic-flow and data persistence models.
-* **[`/.kiro/specs/`](./.kiro/specs/)**: Detailed technical specifications.
+* **[`/.kiro/specs/omniable-aws-migration/requirements.md`](./.kiro/specs/omniable-aws-migration/requirements.md)**: EARS-notated system requirements (20 detailed requirements).
+* **[`/.kiro/specs/omniable-aws-migration/design.md`](./.kiro/specs/omniable-aws-migration/design.md)**: Complete AWS architecture design with 30 correctness properties.
+* **[`/OmniAble_Platform.pdf`](./OmniAble_Platform.pdf)**: Original conceptual reference document.
 
 ---
 *Empowering Every Individual across Bharat.*
