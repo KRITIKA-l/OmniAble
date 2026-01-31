@@ -1,46 +1,50 @@
-# 🌐 OmniAble: Unified Accessibility for Bharat
+# 🌐 OmniAble: AI-Powered Accessibility for Bharat
 
-**A centralized, AI-driven architecture empowering the disabled community across India.**
-
----
-
-## 📌 Submission Note
-This repository contains the **System Specification and Architectural Blueprint** for the AI for Bharat Hackathon. It follows a **Design-First** approach, detailing the technical logic and requirements for a unified accessibility hub.
+**A unified, AWS-native ecosystem designed to bridge the accessibility gap for 70M+ individuals across India.**
 
 ---
 
-## 🎯 Problem Statement (Track: Communities & Access)
-Current assistive technology in Bharat is fragmented. Users with multiple or diverse disabilities must navigate separate, non-localized apps. There is a critical lack of a single, scalable platform that integrates:
-1. **Vision Assistance** (Scene description & localized TTS)
-2. **Hearing Support** (Indian Sign Language conversion)
-3. **Cognitive Simplification** (Complex text-to-simple regional language)
-4. **Motor Control** (Gesture and voice-based navigation)
-5. **Speech Support** (Predictive communication aids)
+## 📌 Submission Overview
+This repository contains the **Technical Specification and Architectural Blueprint** for the AWS AI for Bharat Hackathon (Idea Phase). Leveraging a **Spec-Driven Development** approach, OmniAble maps real-world accessibility challenges to a scalable, serverless cloud architecture.
 
 ---
 
-## ✨ The Solution: OmniAble
-OmniAble provides a unified hub that consolidates these five pillars into one seamless interface. It is designed to be:
-* **Localized:** Native support for Indian Sign Language (ISL) and regional dialects.
-* **Low-Latency:** Optimized for India’s diverse network conditions through edge-caching and serverless logic.
-* **Unified:** A single point of access for all accessibility needs, reducing the cognitive and financial burden on the user.
+## 🎯 The Problem
+Assistive technology in Bharat is currently fragmented. Users with diverse disabilities (Vision, Hearing, Cognitive, Motor, Speech) must navigate multiple, non-localized applications that lack support for Indian Sign Language (ISL) and regional dialects.
+
+## ✨ The Solution
+OmniAble provides a single, modular hub that integrates five core accessibility pillars into one interface, optimized for low-bandwidth environments and localized for the Indian context.
+
+### **Key Modules:**
+| Module | AWS Integration | Impact |
+| :--- | :--- | :--- |
+| **Vision** | Amazon Bedrock & Polly | Scene description & regional TTS |
+| **Hearing** | Amazon Transcribe | Speech-to-Sign (ISL) conversion |
+| **Cognitive** | Amazon Bedrock (Claude) | Text simplification for neurodiversity |
+| **Speech** | Amazon Polly | Multi-lingual predictive communication |
 
 ---
 
-## 🏗️ System Logic & Architecture
-* **Intelligent Processing:** Leverages Large Language Models (LLMs) for real-time text simplification and image-to-speech.
-* **Neural Audio & Speech:** Real-time multi-lingual synthesis and streaming transcription.
-* **Sign Synthesis:** Computational mapping of text to animated sign language sequences.
-* **Edge Delivery:** Global content distribution to ensure high performance in rural and urban areas.
+## 🏗️ AWS Technical Stack
+* **Intelligence Layer:** **Amazon Bedrock (Claude)** for sophisticated image-to-text and linguistic simplification.
+* **Voice & Audio:** **Amazon Polly** (Neural voices for Indian dialects) and **Amazon Transcribe**.
+* **Compute:** **AWS Lambda** for a cost-efficient, event-driven serverless backbone.
+* **Data Persistence:** **Amazon RDS (PostgreSQL)** for secure user profiles and progress tracking.
+* **Global Delivery:** **Amazon S3** and **CloudFront** for low-latency asset delivery across Bharat.
 
 ---
 
 ## 📁 Repository Structure
-* **[`requirements.md`](./requirements.md)**: High-level requirements summary for the OmniAble platform.
-* **[`design.md`](./design.md)**: AWS architecture design document.
-* **`.kiro/specs/`**: Detailed technical specifications (local development files):
-  - `requirements.md`: Complete EARS-formatted requirements (20 detailed requirements)
-  - `design.md`: Full AWS architecture design with 30 correctness properties
+* **[Requirements Specification](./requirements.md)**: User stories in EARS notation and acceptance criteria.
+* **[System Design](./design.md)**: Technical architecture, Mermaid diagrams, and API definitions.
 
 ---
-*Empowering Every Individual across Bharat.*
+
+## 🚀 Future Roadmap
+- **Phase 1:** Core Vision and Speech modules using Amazon Bedrock.
+- **Phase 2:** Integration of Indian Sign Language (ISL) video synthesis.
+- **Phase 3:** Community-driven localized dialect training for Amazon Transcribe.
+
+---
+
+*Developed for the AWS AI for Bharat Hackathon 2026*
